@@ -2,7 +2,6 @@ package com.example.projetolpiii.servicos;
 
 import android.os.AsyncTask;
 
-import com.example.projetolpiii.entidades.Pergunta;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 
@@ -17,25 +16,20 @@ import java.util.ArrayList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Consultar extends AsyncTask<Void, Void, ArrayList<Pergunta>> {
+public class ConsultarIds extends AsyncTask<Void, Void, ArrayList<Integer>> {
 
-    private Integer id_pergunta;
-
-    public Consultar(Integer id_pergunta) {
-        this.id_pergunta = id_pergunta;
-    }
 
     @Override
-    protected ArrayList<Pergunta> doInBackground(Void... voids) {
+    protected ArrayList<Integer> doInBackground(Void... voids) {
 
         String dados = "";
+        String url = "https://api-queimaduras.herokuapp.com/consultar-id-perguntas";
         try {
-            String url = "https://api-queimaduras.herokuapp.com/consultar-pergunta/" + this.id_pergunta;
             dados = getJson(url);
         }catch (Exception e) {
             e.printStackTrace();
         }
-        Type tipoLista = new TypeToken<ArrayList<Pergunta>>() {}.getType();
+        Type tipoLista = new TypeToken<ArrayList<Integer>>() {}.getType();
         return new Gson().fromJson(dados, tipoLista);
     }
 

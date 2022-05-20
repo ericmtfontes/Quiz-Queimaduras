@@ -5,13 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".telaSobre">
 
     <TextView
         android:id="@+id/txtSobre"
         android:layout_width="275dp"
         android:layout_height="125dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="O projeto consiste em ensinar e conscientizar crianças de uma forma divertida e cheia de desafios. "
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -19,12 +20,13 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.226" />
+        app:layout_constraintVertical_bias="0.203" />
 
     <TextView
         android:id="@+id/txtSobre2"
         android:layout_width="275dp"
         android:layout_height="125dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Realizado por estudantes de Ciência da Computação da Unisagrado, sob orientação do professor Vinicius Andrade e baseado na instituição ANAVIQ."
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -32,54 +34,58 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.47" />
+        app:layout_constraintVertical_bias="0.447" />
 
     <TextView
         android:id="@+id/txtEric"
-        android:layout_width="125dp"
+        android:layout_width="150dp"
         android:layout_height="25dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Eric Mateus Fontes"
         android:textColor="#F8F8F8"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.684" />
 
     <TextView
-        android:id="@+id/txtMelo"
-        android:layout_width="125dp"
+        android:id="@+id/txtMarco"
+        android:layout_width="180dp"
         android:layout_height="25dp"
-        android:text="João Vitor Melo"
+        android:fontFamily="@font/frederickathegreat_regular"
+        android:text="João Paulo Marques Jr."
         android:textColor="#F8F8F8"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.178"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.766" />
+        app:layout_constraintVertical_bias="0.719" />
 
     <TextView
         android:id="@+id/txtMurilo"
-        android:layout_width="125dp"
+        android:layout_width="150dp"
         android:layout_height="25dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Murilo Chiese Leite"
         android:textColor="#F8F8F8"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.766" />
+        app:layout_constraintVertical_bias="0.79" />
 
     <TextView
         android:id="@+id/txtTami"
-        android:layout_width="175dp"
+        android:layout_width="195dp"
         android:layout_height="25dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Tamires M. Tozze Martins"
         android:textColor="#F8F8F8"
         android:textSize="14sp"
@@ -87,21 +93,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.82" />
+        app:layout_constraintVertical_bias="0.825" />
 
     <TextView
-        android:id="@+id/txtMarco"
+        android:id="@+id/txtMelo"
         android:layout_width="150dp"
         android:layout_height="25dp"
-        android:text="João Paulo Marques Jr."
+        android:fontFamily="@font/frederickathegreat_regular"
+        android:text="João Vitor Melo"
         android:textColor="#F8F8F8"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.804"
+        app:layout_constraintHorizontal_bias="0.555"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.722" />
+        app:layout_constraintVertical_bias="0.754" />
 
     <View
         android:id="@+id/divider4"
@@ -125,13 +132,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.737" />
+        app:layout_constraintVertical_bias="0.717" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Sobre"
         android:textColor="#F8F8F8"
         android:textSize="35sp"
@@ -147,6 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Desenvolvedores"
         android:textColor="#F8F8F8"
         android:textSize="35sp"
@@ -155,13 +164,14 @@
         app:layout_constraintHorizontal_bias="0.416"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
+        app:layout_constraintVertical_bias="0.599" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="ANAVIQ"
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -176,6 +186,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="UNISAGRADO"
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -184,17 +195,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.972" />
-
-    <ImageButton
-        android:id="@+id/btn_return"
-        android:layout_width="45dp"
-        android:layout_height="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.062"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.069"
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

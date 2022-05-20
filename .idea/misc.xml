@@ -3,6 +3,33 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_about.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_howtoplay.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_referencias.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_tela_como_jogar.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_tela_perguntas.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_tela_referencias.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fonte/Desktop/Anaviq_Projeto/app/src/main/res/layout/activity_tela_sobre.xml" value="0.34646739130434784" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/layout/activity_about.xml" value="0.33" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/layout/activity_howtoplay.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/layout/activity_tela_perguntas.xml" value="0.25" />
+        <entry key="..\:/Users/fonte/Desktop/ProjetoLPIII/app/src/main/res/layout/activity_tela_referencias.xml" value="0.25" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/drawable/ic_launcher_background.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/drawable/icon_app_background.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/layout/activity_about.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/layout/activity_howtoplay.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/layout/activity_tela_perguntas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/layout/activity_tela_referencias.xml" value="0.17708333333333334" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/mipmap-anydpi-v26/icon_app.xml" value="0.204" />
+        <entry key="..\:/Users/fonte/Desktop/Quiz Queimaduras/app/src/main/res/mipmap-anydpi-v26/icon_app_round.xml" value="0.204" />
         <entry key="..\:/Users/fonte/Documents/ws-androidstudio/ProjetoLPIII/app/src/main/res/layout/activity_main.xml" value="0.34782608695652173" />
         <entry key="..\:/Users/fonte/Documents/ws-androidstudio/ProjetoLPIII/app/src/main/res/layout/activity_tela_como_jogar.xml" value="0.34782608695652173" />
         <entry key="..\:/Users/fonte/Documents/ws-androidstudio/ProjetoLPIII/app/src/main/res/layout/activity_tela_perguntas.xml" value="0.25" />

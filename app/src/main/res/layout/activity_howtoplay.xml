@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
-    tools:context=".MainActivity">
+    tools:context=".telaComoJogar">
 
     <TextView
         android:id="@+id/textView11"
@@ -30,6 +30,7 @@
         android:layout_width="275dp"
         android:layout_height="125dp"
         android:layout_marginTop="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="O jogo consiste basicamente em um Quiz, com perguntas e respostas, sendo sempre pelo menos uma delas correta."
         android:textColor="#F8F8F8"
         android:textSize="14sp"
@@ -44,6 +45,7 @@
         android:id="@+id/txtSobre2"
         android:layout_width="275dp"
         android:layout_height="125dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Você deve acertar as perguntas antes de perder todas as vidas para ganhar o jogo."
         android:textColor="#F8F8F8"
         android:textSize="14sp"
@@ -59,6 +61,7 @@
         android:layout_width="275dp"
         android:layout_height="125dp"
         android:layout_marginTop="16dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Você começa sempre com três vidas, que são representadas por coraçõezinhos no canto superior direito da tela. Quando você erra uma pergunta, você perde uma das vidas."
         android:textColor="#F8F8F8"
         android:textSize="14sp"
@@ -86,6 +89,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="Como jogar"
         android:textColor="#F8F8F8"
         android:textSize="35sp"
@@ -101,6 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="ANAVIQ"
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -115,6 +120,7 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/frederickathegreat_regular"
         android:text="UNISAGRADO"
         android:textColor="#F8F8F8"
         android:textSize="16sp"
@@ -123,17 +129,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView9"
         app:layout_constraintVertical_bias="0.972" />
-
-    <ImageButton
-        android:id="@+id/btn_return"
-        android:layout_width="45dp"
-        android:layout_height="36dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.068"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.094"
-        app:srcCompat="@android:drawable/ic_menu_close_clear_cancel" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
